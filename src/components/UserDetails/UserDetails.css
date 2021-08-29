@@ -1,0 +1,40 @@
+.UserDetails{
+    min-width: 70%;
+    min-height: 15vh;
+    margin: 20px 0;
+    background-color: #F9B208;
+    border: 2px solid red;
+    border-radius: 25px;
+    box-shadow: 5px 8px 5px silver;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+/* first one ne hover thi prevent karyo */
+.UserDetails:hover , .UserDetails:not(:not(.extra)){
+    box-shadow: 10px 15px 7px silver;
+    background-color: #F7FD04;
+
+}
+
+.userId{
+    color:#2C2E43;
+}
+
+.userTitle{
+    color:red;
+
+}
+
+.userCompleted{
+    color:#595260;
+}
+
+.userId, .userTitle, .userCompleted{
+    font-size: xx-large;
+    margin: 0 50px ;
+    font-weight: 700;
+}
